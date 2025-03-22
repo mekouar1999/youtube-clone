@@ -1,0 +1,204 @@
+.rectangle{
+    width: 20px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.toggle{
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    padding: 0.7rem;
+    border-radius: 50%;
+
+}
+
+.toggle:hover{
+    cursor: pointer;
+    background-color: #3a3939;
+    opacity: 0.8;
+    width: max-content;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+}
+
+body{
+    background-color: black;
+}
+
+.logoytb{
+    width: 100px;
+}
+
+.logoytb:hover{
+cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputnavbar{
+    padding: 0.5rem 0.5rem;
+    border: 1px solid rgb(79, 78, 78);
+    background-color: inherit;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+    padding-left: 1.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.search{
+    background-color: rgb(56, 56, 56);
+    padding: 0.5rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid  rgb(79, 78, 78);
+    border-right: 1px solid  rgb(79, 78, 78);
+    border-bottom: 1px solid  rgb(79, 78, 78);
+
+}
+
+.searchmaman{
+    display: flex;
+}
+
+.loupe{
+    color: white;
+    padding-left: 0.75rem;
+    padding-right: 0.4rem;
+
+}
+
+.loupe:hover{
+    cursor: pointer;
+}
+
+.microphone{
+    background-color: rgb(56, 56, 56);
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.microphone:hover{
+    cursor: pointer;
+    background-color: rgb(87, 85, 85);
+
+}
+
+.microphone::after {
+    content: "Effectuer une recherche vocale";
+    position: absolute; 
+    bottom: -40px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: rgb(87, 85, 85);
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 4px;
+    font-size: 14px; 
+    white-space: nowrap;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+    pointer-events: none; 
+}
+
+.microphone:hover::after {
+    opacity: 1;
+}
+
+
+
+
+
+.micro{
+    color: white;
+}
+
+.addicone{
+    color: white;
+}
+
+.creernavbar{
+    color: white;
+}
+
+.creer{
+    background-color: rgb(56, 56, 56);
+    padding: 0.5rem 0.7rem;
+    border-radius: 20px;
+
+}
+.creer:hover{
+    cursor: pointer;
+    background-color: rgb(87, 85, 85);
+
+}
+
+.sonnerieicone{
+    color: white;
+    font-size: 20px;
+   
+}
+
+.alarme{
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+}
+
+.alarme::after {
+    content: "Notifications";
+    position: absolute; 
+    bottom: -50px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: rgb(87, 85, 85);
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 4px;
+    font-size: 14px; 
+    white-space: nowrap;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+    pointer-events: none; 
+}
+
+.alarme:hover::after {
+    opacity: 1;
+}
+
+
+
+
+
+.alarme:hover{
+    background-color: rgb(87, 85, 85);
+    outline:  0.5rem solid  rgb(87, 85, 85);;
+}
+
+.notif{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    padding: 0 0.3rem;
+    font-weight: bold;
+    position: absolute;
+    top: -8px;
+    left: 5px;
+}
+
+.profil img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
