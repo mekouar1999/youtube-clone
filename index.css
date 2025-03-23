@@ -14,6 +14,10 @@
   border-radius: 50%;
 }
 
+.shortvideo,.videomaman{
+    cursor: pointer;
+}
+
 .toggle:hover {
   cursor: pointer;
   background-color: #1a0f0f;
@@ -315,6 +319,10 @@ input {
     display: flex;
     margin-top: 7px;
     gap: 10px;
+}
+
+.video{
+    z-index: -1;
 }
 
 .desc{
