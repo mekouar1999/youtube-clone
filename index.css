@@ -224,7 +224,7 @@ body {
 .categories {
   display: flex;
   justify-content: space-around;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 input:focus {
@@ -256,6 +256,8 @@ input {
 }
 
 
+
+
 /* header */
 
 .header{
@@ -263,6 +265,15 @@ input {
     justify-content: center;
     margin-top: 5rem;
     gap: 20px;
+    height: 12rem;
+}
+
+.header0{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 20px;
+    height: 20rem;
 }
 
 .videomaman{
@@ -303,7 +314,7 @@ input {
 .desc2{
     display: flex;
     margin-top: 7px;
-    gap: 5px;
+    gap: 10px;
 }
 
 .desc{
@@ -314,7 +325,7 @@ input {
 
 .gmk{
     height: 30px;
-    width: 30px;
+    width: 40px;
     border-radius: 50%;
 }
 
@@ -330,4 +341,79 @@ input {
 
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
+}
+
+.btn1{
+    color: rgb(141, 107, 173);
+    padding: 0.4rem 2rem;
+    background-color: inherit;
+    border: 1px solid rgb(141, 107, 173);
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btn2{
+    color: rgb(141, 107, 173);
+    padding: 0.4rem 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(189, 162, 213);
+    border: 1px solid rgb(141, 107, 173);
+    border-radius: 30px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btnmaman{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/* shorts */
+
+.shorts h2{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 20px;
+}
+
+.titilelogo img{
+    width: 40px;
+}
+
+.titilelogo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.videosshort{
+    display: flex;
+    gap: 20px;
+}
+
+.shortvideo img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.shortvideo h1{
+    color: white;
+font-size: 15px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.shortvideo p{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5rem;
+    font-size: 15px;
 }
